@@ -1,0 +1,13 @@
+<h2>New Team</h2>
+<%= form_for(@team) do |f| %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :address1 %><br />
+    <%= f.text_field :address1 %>
+  </p>
+  <%= f.submit %>
+<% end %>
