@@ -11,5 +11,12 @@ feature "Creating Teams" do
     click_button "Create Team"
 
     expect(page).to have_content("Team has been created.")
+
+    team = Team.where(name: "Hawks").first
+
+    expect(page.current_url).to eql(team_url(team))
+
+    title = "Hawks - Teams - Leaguer"
+    expect(page).to have_title(title)
   end
 end
