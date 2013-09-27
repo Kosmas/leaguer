@@ -13,7 +13,9 @@ class TeamsController < ApplicationController
       flash[:notice] = "Team has been created."
       redirect_to @team
     else
-      # nothing, yet
+      flash[:aleert] = "Team has not been created."
+
+      render "new"
     end
   end
 
