@@ -9,7 +9,7 @@ feature "Creating Teams" do
 
   scenario  "can create a team" do
     fill_in "Name", with: "Hawks"
-    fill_in "Address1", with: "Wolverley High School"
+    fill_in "Game day", with: "Sunday"
     click_button "Create Team"
 
     expect(page).to have_content("Team has been created.")

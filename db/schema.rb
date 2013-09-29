@@ -15,12 +15,12 @@ ActiveRecord::Schema.define(version: 20130923155606) do
 
   create_table "teams", force: true do |t|
     t.string   "name"
-    t.string   "address1"
-    t.string   "address2"
-    t.string   "city"
-    t.string   "postcode"
+    t.string   "game_day"
+    t.string   "game_time"
     t.integer  "division_id"
     t.integer  "season_id"
+    t.integer  "secretary_id"
+    t.integer  "court_id"
     t.float    "lat"
     t.float    "lng"
     t.boolean  "active"
