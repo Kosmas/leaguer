@@ -19,6 +19,8 @@
       "/home/kosmas/Prog/ror/leaguer/app/controllers/teams_controller.rb": [
         1,
         1,
+        null,
+        1,
         8,
         null,
         null,
@@ -40,16 +42,13 @@
         null,
         null,
         1,
-        6,
+        null,
+        null,
+        1,
         null,
         null,
         1,
         2,
-        null,
-        null,
-        1,
-        2,
-        2,
         1,
         1,
         null,
@@ -58,7 +57,6 @@
         null,
         null,
         null,
-        1,
         1,
         1,
         null,
@@ -71,6 +69,13 @@
         null,
         1,
         4,
+        null,
+        null,
+        1,
+        12,
+        null,
+        1,
+        1,
         null,
         null
       ],
@@ -87,7 +92,7 @@
         null
       ]
     },
-    "timestamp": 1380727377
+    "timestamp": 1380728823
   },
   "Cucumber Features": {
     "coverage": {

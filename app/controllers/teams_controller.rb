@@ -1,4 +1,6 @@
 class TeamsController < ApplicationController
+  before_action :set_team, only: [:show, :edit, :update, :destroy]
+
   def index
     @teams = Team.all
   end
@@ -21,15 +23,12 @@ class TeamsController < ApplicationController
   end
 
   def show
-    @team = Team.find(params[:id])
   end
 
   def edit
-    @team = Team.find(params[:id])
   end
 
   def update
-    @team = Team.find(params[:id])
     if @team.update(team_params)
       flash[:notice] = "Team has been updated."
       redirect_to @team
@@ -40,7 +39,6 @@ class TeamsController < ApplicationController
   end
 
   def destroy
-    @team = Team.find(params[:id])
     @team.destroy
 
     flash[:notice] = "Team has been deleted."
@@ -52,5 +50,12 @@ class TeamsController < ApplicationController
 
   def team_params
     params.require(:team).permit(:name,:address1)
+  end
+
+  def set_team
+    @team = Team.find(params[:id])
+    rescue ActiveRecord::RecordNotFound
+    flash[:alert] = "The team you were looking for could not be found."
+    redirect_to teams_path
   end
 end
