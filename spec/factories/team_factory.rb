@@ -1,5 +1,5 @@
 FactoryGirl.define do
   factory :team do
-    name "Best team"
+    name 'Best team'
   end
 end

@@ -13,12 +13,12 @@ class TeamsController < ApplicationController
     @team = Team.new(team_params)
 
     if @team.save
-      flash[:notice] = "Team has been created."
+      flash[:notice] = 'Team has been created.'
       redirect_to @team
     else
-      flash[:aleert] = "Team has not been created."
+      flash[:alert] = 'Team has not been created.'
 
-      render "new"
+      render 'new'
     end
   end
 
@@ -30,18 +30,18 @@ class TeamsController < ApplicationController
 
   def update
     if @team.update(team_params)
-      flash[:notice] = "Team has been updated."
+      flash[:notice] = 'Team has been updated.'
       redirect_to @team
     else
-      flash[:alert] = "Team has not been updated."
-      render "edit"
+      flash[:alert] = 'Team has not been updated.'
+      render 'edit'
     end
   end
 
   def destroy
     @team.destroy
 
-    flash[:notice] = "Team has been deleted."
+    flash[:notice] = 'Team has been deleted.'
 
     redirect_to teams_path
   end
@@ -55,7 +55,7 @@ class TeamsController < ApplicationController
   def set_team
     @team = Team.find(params[:id])
     rescue ActiveRecord::RecordNotFound
-    flash[:alert] = "The team you were looking for could not be found."
+    flash[:alert] = 'The team you were looking for could not be found.'
     redirect_to teams_path
   end
 end
