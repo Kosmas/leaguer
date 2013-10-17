@@ -49,7 +49,7 @@ class TeamsController < ApplicationController
   private
 
   def team_params
-    params.require(:team).permit(:name,:address1)
+    params.require(:team).permit(:name, :address1)
   end
 
   def set_team
