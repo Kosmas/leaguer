@@ -55,5 +55,7 @@ Leaguer::Application.routes.draw do
   #   end
   root "teams#index"
 
-  resources :teams
+  resources :teams do
+		resources :players
+	end
 end
