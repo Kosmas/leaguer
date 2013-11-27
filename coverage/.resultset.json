@@ -4,9 +4,9 @@
       "/home/kosmas/Prog/ror/leaguer/app/helpers/application_helper.rb": [
         1,
         1,
-        12,
-        12,
-        12,
+        14,
+        14,
+        14,
         null,
         null,
         null,
@@ -59,17 +59,24 @@
         null,
         null,
         1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
         null,
         1,
         5,
         null,
         null,
         1,
-        15,
+        17,
         null,
         null,
         1,
-        9,
+        11,
         null,
         null
       ],
@@ -85,7 +92,7 @@
         1,
         null,
         1,
-        14,
+        15,
         null,
         null,
         1,
@@ -136,7 +143,7 @@
         null,
         null,
         1,
-        18,
+        20,
         null,
         1,
         1,
@@ -160,7 +167,7 @@
         null
       ]
     },
-    "timestamp": 1385591061
+    "timestamp": 1385592520
   },
   "Cucumber Features": {
     "coverage": {

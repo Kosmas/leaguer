@@ -35,6 +35,13 @@ class PlayersController < ApplicationController
 		end
 	end
 
+	def destroy
+		@player.destroy
+		flash[:notice] = 'Player has been deleted.'
+
+		redirect_to @team
+	end
+
 	private
 
 	def player_params
