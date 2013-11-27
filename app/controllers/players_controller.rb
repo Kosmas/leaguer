@@ -20,6 +20,21 @@ class PlayersController < ApplicationController
 	def show
 	end
 
+	def edit
+	end
+
+	def update
+		if @player.update(player_params)
+			flash[:notice] = 'Player has been updated.'
+
+			redirect_to [@team, @player]
+		else
+			flash[:alert] = 'Player has not been updated.'
+
+			render action: 'edit'
+		end
+	end
+
 	private
 
 	def player_params
