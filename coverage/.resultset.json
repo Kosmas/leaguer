@@ -150,6 +150,11 @@
         null,
         null
       ],
+      "/home/kosmas/Prog/ror/leaguer/app/models/user.rb": [
+        1,
+        1,
+        null
+      ],
       "/home/kosmas/Prog/ror/leaguer/app/models/team.rb": [
         1,
         1,
@@ -167,7 +172,7 @@
         null
       ]
     },
-    "timestamp": 1385592520
+    "timestamp": 1385660782
   },
   "Cucumber Features": {
     "coverage": {
