@@ -1,7 +1,4 @@
 Leaguer::Application.routes.draw do
-  get "users/new"
-  get "users/create"
-  get "users/show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -66,4 +63,5 @@ Leaguer::Application.routes.draw do
 
 	get '/signin', to: 'sessions#new'
 	post '/signin', to: 'sessions#create'
+	get '/signout', to: 'sessions#destroy'
 end
