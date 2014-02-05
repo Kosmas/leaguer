@@ -54,3 +54,6 @@ group :test do
 end
 
 gem "coveralls", require: false
+
+# Security
+gem 'brakeman', '~> 2.3.1', require: false, group: :development
