@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 4.0.0'
+gem 'rails', '~> 4.0.3'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -50,7 +50,7 @@ end
 
 group :test do
   gem "capybara", "~> 2.2.1"
-  gem "factory_girl_rails", "~> 4.3.0"
+  gem "factory_girl_rails", "~> 4.4.0"
 end
 
 gem "coveralls", require: false
