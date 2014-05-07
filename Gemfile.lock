@@ -31,7 +31,7 @@ GEM
     bcrypt (3.1.7)
     bcrypt-ruby (3.1.5)
       bcrypt (>= 3.1.3)
-    brakeman (2.4.3)
+    brakeman (2.5.0)
       erubis (~> 2.6)
       fastercsv (~> 1.5)
       haml (>= 3.0, < 5.0)
@@ -137,11 +137,11 @@ GEM
     ruby_parser (3.4.1)
       sexp_processor (~> 4.1)
     sass (3.2.19)
-    sass-rails (4.0.2)
+    sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
       sass (~> 3.2.0)
       sprockets (~> 2.8, <= 2.11.0)
-      sprockets-rails (~> 2.0.0)
+      sprockets-rails (~> 2.0)
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
@@ -159,7 +159,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.0.1)
+    sprockets-rails (2.1.3)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
@@ -182,7 +182,7 @@ GEM
       coffee-rails
     tzinfo (1.1.0)
       thread_safe (~> 0.1)
-    uglifier (2.4.0)
+    uglifier (2.5.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     xpath (2.0.0)
@@ -193,7 +193,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (~> 3.1.2)
-  brakeman (~> 2.4.1)
+  brakeman (~> 2.5.0)
   capybara (~> 2.2.1)
   coffee-rails (~> 4.0.0)
   coveralls
@@ -202,9 +202,9 @@ DEPENDENCIES
   jquery-rails
   rails (~> 4.1.1)
   rspec-rails (~> 2.14.1)
-  sass-rails (~> 4.0.0)
+  sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   sqlite3
   therubyracer
   turbolinks (~> 2.2.0)
-  uglifier (~> 2.4.0)
+  uglifier (~> 2.5.0)
