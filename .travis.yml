@@ -3,7 +3,7 @@ env:
     - secure: "m+t41bNV+6qIZogWOoJ6Jv9g+EPVrpFoJQyB95o0IyCWDiXMV29MnLFnmrV2Zc1jR94WC81SbK3JozraOILC44Gnp0fj7Zz1j9m6V1V/vtYPwoDtTNXHoKBwOwjbRXGFxi5iwFmk8ktF/AJtdYcMgdXNkbQ2Z/gIjlSHLB5ESd4="
 
 rvm:
-  - 2.0.0
+  - 2.1.2
 
 # whitelist
 branches:
