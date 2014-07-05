@@ -6,6 +6,12 @@ Leaguer::Application.routes.draw do
     resources :players
   end
 
+  resources :users
+
+  get "/signin", to: "sessions#new"
+  post "/signin", to: "sessions#create"
+  get "/signout", to: "sessions#destroy"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -60,11 +66,4 @@ Leaguer::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-#
-
-#	resources :users
-#
-#	get '/signin', to: 'sessions#new'
-#	post '/signin', to: 'sessions#create'
-#	get '/signout', to: 'sessions#destroy'
 end
