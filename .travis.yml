@@ -4,6 +4,8 @@ env:
 
 rvm:
   - 2.1.2
+script:
+  - bundle exec rake db:test:prepare
 
 # whitelist
 branches:
