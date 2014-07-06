@@ -31,7 +31,7 @@ class PlayersController < ApplicationController
     else
       flash[:alert] = 'Player has not been updated.'
 
-      render action: 'edit'
+      render 'edit'
     end
   end
 

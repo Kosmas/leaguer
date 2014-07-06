@@ -32,7 +32,7 @@ class UsersController < ApplicationController
     else
       flash[:alet] = 'Profile has not been updated.'
 
-      render action: 'edit'
+      render 'edit'
     end
   end
 
