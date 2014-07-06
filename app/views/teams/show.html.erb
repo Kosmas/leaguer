@@ -6,9 +6,9 @@
 <%= link_to 'New Player', new_team_player_path(@team) %>
 
 <ul id='players'>
-	<% @team.players.each do |player| %>
-		<li>
-			#<%= player.id %> - <%= link_to player.surname, [@team, player] %>
-		</li>
-	<% end %>
+  <% @team.players.each do |player| %>
+    <li>
+      #<%= player.id %> - <%= link_to player.surname, [@team, player] %>
+    </li>
+  <% end %>
 </ul>

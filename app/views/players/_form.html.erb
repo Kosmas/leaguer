@@ -1,27 +1,27 @@
 <%= form_for [@team, @player] do |f| %>
-	<% if @player.errors.any? %>
-		<div id='error_explanation'>
-			<h2><%= pluralize(@player.errors.count, 'error') %> prohibited this ticket from being saved:</h2>
+  <% if @player.errors.any? %>
+    <div id='error_explanation'>
+      <h2><%= pluralize(@player.errors.count, 'error') %> prohibited this ticket from being saved:</h2>
 
-			<ul>
-				<% @player.errors.full_messages.each do |msg| %>
-					<li><%= msg %></li>
-				<% end %>
-			</ul>
-		</div>
-	<% end %>
+      <ul>
+        <% @player.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
 
-	<p>
-		<%= f.label :first_name %><br>
-		<%= f.text_field :first_name %>
-	</p>
-	<p>
-		<%= f.label :surname %><br>
-		<%= f.text_area :surname %>
-	</p>
-	<p>
-		<%= f.label :dob %><br>
-		<%= f.text_field :dob %>
-	</p>
-	<%= f.submit %>
+  <p>
+    <%= f.label :first_name %><br>
+    <%= f.text_field :first_name %>
+  </p>
+  <p>
+    <%= f.label :surname %><br>
+    <%= f.text_area :surname %>
+  </p>
+  <p>
+    <%= f.label :dob %><br>
+    <%= f.text_field :dob %>
+  </p>
+  <%= f.submit %>
 <% end %> 
