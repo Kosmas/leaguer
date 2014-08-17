@@ -3,10 +3,10 @@ Leaguer::Application.routes.draw do
   root "teams#index"
 
   resources :teams do
-    resources :players
+    resources :players, except: [:index]
   end
 
-  resources :users
+  resources :users, except: [:destroy, :index]
 
   get "/signin", to: "sessions#new"
   post "/signin", to: "sessions#create"
