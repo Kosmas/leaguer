@@ -56,4 +56,4 @@ end
 gem "coveralls", '~> 0.7.1', require: false
 
 # Security
-gem 'brakeman', '~> 2.6.1', require: false, group: :development
+gem 'brakeman', '~> 2.6.2', require: false, group: :development
