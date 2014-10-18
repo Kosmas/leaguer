@@ -6,6 +6,8 @@ Leaguer::Application.routes.draw do
     resources :players, except: [:index]
   end
 
+  resources :seasons
+
   resources :users, except: [:destroy, :index]
 
   get "/signin", to: "sessions#new"
