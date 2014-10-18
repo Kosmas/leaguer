@@ -13,7 +13,7 @@ gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '~> 2.5.3'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.1.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
  gem 'therubyracer', platforms: :ruby
@@ -25,7 +25,7 @@ gem 'jquery-rails', '~> 3.1.2'
 gem 'turbolinks', '~> 2.4.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.2.2'
+gem 'jbuilder', '~> 2.2.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -49,11 +49,11 @@ group :test, :development do
 end
 
 group :test do
-  gem "capybara", "~> 2.4.3"
-  gem "factory_girl_rails", "~> 4.4.0"
+  gem "capybara", "~> 2.4.4"
+  gem "factory_girl_rails", "~> 4.5.0"
 end
 
 gem "coveralls", '~> 0.7.1', require: false
 
 # Security
-gem 'brakeman', '~> 2.6.2', require: false, group: :development
+gem 'brakeman', '~> 2.6.3', require: false, group: :development
