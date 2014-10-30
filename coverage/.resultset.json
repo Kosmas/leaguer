@@ -147,6 +147,22 @@
         1,
         null
       ],
+      "/home/kosmas/Prog/ror/leaguer/app/models/team.rb": [
+        1,
+        1,
+        null,
+        1,
+        null
+      ],
+      "/home/kosmas/Prog/ror/leaguer/app/models/player.rb": [
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null
+      ],
       "/home/kosmas/Prog/ror/leaguer/app/controllers/users_controller.rb": [
         1,
         1,
@@ -193,22 +209,6 @@
         null,
         null
       ],
-      "/home/kosmas/Prog/ror/leaguer/app/models/team.rb": [
-        1,
-        1,
-        null,
-        1,
-        null
-      ],
-      "/home/kosmas/Prog/ror/leaguer/app/models/player.rb": [
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        null
-      ],
       "/home/kosmas/Prog/ror/leaguer/app/controllers/sessions_controller.rb": [
         1,
         1,
@@ -242,7 +242,7 @@
         null
       ]
     },
-    "timestamp": 1413667254
+    "timestamp": 1414689400
   },
   "Cucumber Features": {
     "coverage": {
