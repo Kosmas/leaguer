@@ -27,5 +27,21 @@
     <%= f.text_field :game_time %>
   </p>
 
+  <p>
+    <%= f.label :seasons %>
+    <%=
+      select_tag(
+        'seasons',
+        options_from_collection_for_select(
+          Season.all,
+          'id',
+          'description',
+          @team.seasons.map{ |j| j.id }
+        ),
+        multiple: true
+      )
+    %>
+  </p>
+
   <%= f.submit %>
 <% end %>
