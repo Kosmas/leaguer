@@ -1,0 +1,8 @@
+<h2>Seasons</h2>
+<ul>
+  <% @seasons.each do |season| %>
+    <li><%= link_to season.description, season %></li>
+  <% end %>
+</ul>
+
+<%= link_to "New Season", new_season_path %>
