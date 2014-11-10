@@ -2,6 +2,7 @@ require 'spec_helper'
 
 feature 'Creating Teams' do
   before do
+    FactoryGirl.create(:season)
     visit '/'
 
     click_link 'New Team'
@@ -10,6 +11,7 @@ feature 'Creating Teams' do
   scenario  'can create a team' do
     fill_in 'Name', with: 'Hawks'
     fill_in 'Game day', with: 'Sunday'
+    select  'Season 2014, best ever', from: 'seasons'
     click_button 'Create Team'
 
     expect(page).to have_content('Team has been created.')

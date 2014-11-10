@@ -1,5 +1,6 @@
 class TeamsController < ApplicationController
   before_action :set_team, only: [:show, :edit, :update, :destroy]
+  before_action :set_seasons, only: [:create, :update]
 
   def index
     @teams = Team.all
@@ -11,6 +12,7 @@ class TeamsController < ApplicationController
 
   def create
     @team = Team.new(team_params)
+    @team.seasons |= @seasons
 
     if @team.save
       flash[:notice] = 'Team has been created.'
@@ -29,6 +31,8 @@ class TeamsController < ApplicationController
   end
 
   def update
+    @team.seasons |= @seasons
+
     if @team.update(team_params)
       flash[:notice] = 'Team has been updated.'
       redirect_to @team
@@ -57,5 +61,9 @@ class TeamsController < ApplicationController
     rescue ActiveRecord::RecordNotFound
     flash[:alert] = 'The team you were looking for could not be found.'
     redirect_to teams_path
+  end
+
+  def set_seasons
+    @seasons = Season.where(:id => params[:seasons])
   end
 end
