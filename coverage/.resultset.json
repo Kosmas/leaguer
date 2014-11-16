@@ -222,16 +222,16 @@
         1,
         null
       ],
+      "/home/kosmas/Prog/ror/leaguer/app/models/season.rb": [
+        1,
+        1,
+        null
+      ],
       "/home/kosmas/Prog/ror/leaguer/app/models/team.rb": [
         1,
         1,
         1,
         null,
-        1,
-        null
-      ],
-      "/home/kosmas/Prog/ror/leaguer/app/models/season.rb": [
-        1,
         1,
         null
       ],
@@ -323,6 +323,6 @@
         null
       ]
     },
-    "timestamp": 1415658491
+    "timestamp": 1416176072
   }
 }
