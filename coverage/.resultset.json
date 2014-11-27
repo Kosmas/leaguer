@@ -222,6 +222,11 @@
         1,
         null
       ],
+      "/home/kosmas/Prog/ror/leaguer/app/models/season.rb": [
+        1,
+        1,
+        null
+      ],
       "/home/kosmas/Prog/ror/leaguer/app/models/team.rb": [
         1,
         1,
@@ -239,9 +244,36 @@
         1,
         null
       ],
-      "/home/kosmas/Prog/ror/leaguer/app/models/season.rb": [
+      "/home/kosmas/Prog/ror/leaguer/app/controllers/sessions_controller.rb": [
         1,
         1,
+        null,
+        null,
+        1,
+        2,
+        null,
+        2,
+        2,
+        null,
+        2,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/home/kosmas/Prog/ror/leaguer/app/controllers/users_controller.rb": [
@@ -289,40 +321,8 @@
         2,
         null,
         null
-      ],
-      "/home/kosmas/Prog/ror/leaguer/app/controllers/sessions_controller.rb": [
-        1,
-        1,
-        null,
-        null,
-        1,
-        2,
-        null,
-        2,
-        2,
-        null,
-        2,
-        null,
-        0,
-        0,
-        null,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
-        1,
-        0,
-        null,
-        null
       ]
     },
-    "timestamp": 1416260425
+    "timestamp": 1417070215
   }
 }
