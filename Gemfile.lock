@@ -175,7 +175,7 @@ GEM
     thread_safe (0.3.4)
     tilt (1.4.1)
     tins (0.13.2)
-    turbolinks (2.5.2)
+    turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -203,5 +203,5 @@ DEPENDENCIES
   sdoc (~> 0.4.1)
   sqlite3 (~> 1.3.10)
   therubyracer
-  turbolinks (~> 2.5.2)
+  turbolinks (~> 2.5.3)
   uglifier (~> 2.6.0)
