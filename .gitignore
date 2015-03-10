@@ -17,3 +17,6 @@
 
 # Ignore secret_token
 /config/secrets.yml
+
+# Ignore coverage results
+/coverage/*.json
