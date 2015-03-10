@@ -1,0 +1,6 @@
+Feature: Teams future
+
+Scenario: Display team details
+  Given there is a team "Hawks"
+  When I go to the teams page
+  Then I should see the team's name
