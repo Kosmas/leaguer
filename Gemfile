@@ -46,7 +46,7 @@ gem 'bcrypt', '~> 3.1.10'
 
 group :test do
   gem "rspec-rails", "~> 3.2.1"
-  gem 'cucumber-rails', '~> 1.4.2'
+  gem 'cucumber-rails', '~> 1.4.2', require: false
   gem 'database_cleaner', '~> 1.4.1'
 end
 
