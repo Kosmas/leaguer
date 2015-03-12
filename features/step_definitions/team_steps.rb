@@ -25,3 +25,18 @@ Then(/^I should have a new team$/) do
   expect(Team.count).to eq(1)
 end
 
+When(/^I edit the team name to "(.*?)"$/) do |new_name|
+  @new_name = new_name
+
+  visit(root_path)
+  click_on @team.name
+  click_on 'Edit Team'
+  fill_in 'Name', with: @new_name
+  click_on 'Update Team'
+end
+
+Then(/^I should see "(.*?)"$/) do |arg1|
+  @team.reload
+  expect(@team.name).to eql(@new_name)
+end
+
