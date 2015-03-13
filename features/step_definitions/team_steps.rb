@@ -40,3 +40,12 @@ Then(/^I should see "(.*?)"$/) do |arg1|
   expect(@team.name).to eql(@new_name)
 end
 
+When(/^I delete the team$/) do
+  visit(root_path)
+  click_on @team.name
+  click_on 'Delete Team'
+end
+
+Then(/^the team should be deleted$/) do
+  expect(Team.count).to eq(0)
+end
