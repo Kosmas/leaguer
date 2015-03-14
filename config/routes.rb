@@ -1,6 +1,5 @@
 Leaguer::Application.routes.draw do
-
-  root "teams#index"
+  root 'teams#index'
 
   resources :teams do
     resources :players, except: [:index]
@@ -10,9 +9,9 @@ Leaguer::Application.routes.draw do
 
   resources :users, except: [:destroy, :index]
 
-  get "/signin", to: "sessions#new"
-  post "/signin", to: "sessions#create"
-  get "/signout", to: "sessions#destroy"
+  get '/signin', to: 'sessions#new'
+  post '/signin', to: 'sessions#create'
+  get '/signout', to: 'sessions#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -54,7 +53,7 @@ Leaguer::Application.routes.draw do
   #       get 'recent', on: :collection
   #     end
   #   end
-  
+
   # Example resource route with concerns:
   #   concern :toggleable do
   #     post 'toggle'
