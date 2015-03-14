@@ -16,7 +16,7 @@ gem 'uglifier', '~> 2.7.1'
 gem 'coffee-rails', '~> 4.1.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
- gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.3'
@@ -45,17 +45,17 @@ gem 'bcrypt', '~> 3.1.10'
 # gem 'debugger', group: [:development, :test]
 
 group :test do
-  gem "rspec-rails", "~> 3.2.1"
+  gem 'rspec-rails', '~> 3.2.1'
   gem 'cucumber-rails', '~> 1.4.2', require: false
   gem 'database_cleaner', '~> 1.4.1'
 end
 
 group :test do
-  gem "capybara", "~> 2.4.4"
-  gem "factory_girl_rails", "~> 4.5.0"
+  gem 'capybara', '~> 2.4.4'
+  gem 'factory_girl_rails', '~> 4.5.0'
 end
 
-gem "coveralls", '~> 0.7.11', require: false
+gem 'coveralls', '~> 0.7.11', require: false
 
 # Security
 gem 'brakeman', '~> 3.0.2', require: false, group: :development
