@@ -16,3 +16,4 @@ feature 'Editing Seasons' do
     expect(page).to have_content('Season has been updated.')
   end
 end
+

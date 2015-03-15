@@ -8,3 +8,4 @@ feature 'Viewing seasons' do
     expect(page.current_url).to eql(season_url(season))
   end
 end
+

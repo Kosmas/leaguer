@@ -15,3 +15,4 @@ feature 'Deleting Seasons' do
     expect(page).to have_no_content('Now')
   end
 end
+
