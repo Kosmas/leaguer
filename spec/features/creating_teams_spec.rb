@@ -8,10 +8,10 @@ feature 'Creating Teams' do
     click_link 'New Team'
   end
 
-  scenario  'can create a team' do
+  scenario 'can create a team' do
     fill_in 'Name', with: 'Hawks'
     fill_in 'Game day', with: 'Sunday'
-    select  'Season 2014, best ever', from: 'seasons'
+    select 'Season 2014, best ever', from: 'seasons'
     click_button 'Create Team'
 
     expect(page).to have_content('Team has been created.')
