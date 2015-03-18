@@ -1,14 +1,14 @@
 Feature: Teams future
 
-Scenario: Display team details
-  Given there is a team "Hawks"
-  When I go to the teams page
-  Then I should see the team's name
-
 Scenario: Create new team
   Given I am on the home page
   When I add a new team
   Then I should have a new team
+
+Scenario: Display team details
+  Given there is a team "Hawks"
+  When I go to the teams page
+  Then I should see the team's name
 
 Scenario: Edit a team
   Given there is a team "Bears"
