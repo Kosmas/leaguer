@@ -1,0 +1,6 @@
+Feature: Seasons future
+
+Scenario: Create new season
+  Given I am on the home page
+  When I add a new season
+  Then I should have a new season
