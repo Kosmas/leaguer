@@ -4,3 +4,8 @@ Scenario: Create new season
   Given I am on the home page
   When I add a new season
   Then I should have a new season
+
+Scenario: Display season details
+  Given there is a season "2014-2015"
+  When I go to the seasons page
+  Then I should see the season's description
