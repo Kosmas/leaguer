@@ -35,7 +35,7 @@ When(/^I edit the team name to "(.*?)"$/) do |new_name|
   click_on 'Update Team'
 end
 
-Then(/^I should see "(.*?)"$/) do |new_name|
+Then(/^I should see the team with "(.*?)"$/) do |new_name|
   @team.reload
   expect(@team.name).to eql(new_name)
 end

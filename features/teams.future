@@ -13,7 +13,7 @@ Scenario: Display team details
 Scenario: Edit a team
   Given there is a team "Bears"
   When I edit the team name to "Bears BC"
-  Then I should see "Bears BC"
+  Then I should see the team with "Bears BC"
 
 Scenario: Delete a team
   Given there is a team "Rockets"
