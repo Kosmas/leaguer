@@ -9,3 +9,8 @@ Scenario: Display season details
   Given there is a season "2014-2015"
   When I go to the seasons page
   Then I should see the season's description
+
+Scenario: Edit a season
+  Given there is a season "2015-2016"
+  When I edit the season description to "2014-2015"
+  Then I should see the seasosn with "2014-2015"

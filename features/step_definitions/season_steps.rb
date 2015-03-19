@@ -21,3 +21,16 @@ end
 Then(/^I should see the season's description$/) do
   expect(page).to have_content(@season.description)
 end
+
+When(/^I edit the season description to "(.*?)"$/) do |new_descr|
+  visit '/seasons'
+  click_on @season.description
+  click_on 'Edit Season'
+  fill_in 'Description', with: new_descr
+  click_on 'Update Season'
+end
+
+Then(/^I should see the seasosn with "(.*?)"$/) do |new_descr|
+  @season.reload
+  expect(@season.description).to eql(new_descr)
+end
