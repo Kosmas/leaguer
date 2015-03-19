@@ -34,3 +34,13 @@ Then(/^I should see the seasosn with "(.*?)"$/) do |new_descr|
   @season.reload
   expect(@season.description).to eql(new_descr)
 end
+
+When(/^I delete the season$/) do
+  visit '/seasons'
+  click_on @season.description
+  click_on 'Delete Season'
+end
+
+Then(/^the season should be deleted$/) do
+  expect(Season.count).to eq(0)
+end

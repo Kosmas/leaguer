@@ -14,3 +14,8 @@ Scenario: Edit a season
   Given there is a season "2015-2016"
   When I edit the season description to "2014-2015"
   Then I should see the seasosn with "2014-2015"
+
+Scenario: Delete a season
+  Given there is a season "2010-2011"
+  When I delete the season
+  Then the season should be deleted
