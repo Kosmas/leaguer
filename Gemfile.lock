@@ -65,7 +65,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1)
-    coveralls (0.7.12)
+    coveralls (0.8.0)
       multi_json (~> 1.10)
       rest-client (>= 1.6.8, < 2)
       simplecov (~> 0.9.1)
@@ -252,7 +252,7 @@ DEPENDENCIES
   brakeman (~> 3.0.2)
   capybara (~> 2.4.4)
   coffee-rails (~> 4.1.0)
-  coveralls (~> 0.7.12)
+  coveralls (~> 0.8.0)
   cucumber-rails (~> 1.4.2)
   database_cleaner (~> 1.4.1)
   factory_girl_rails (~> 4.5.0)
