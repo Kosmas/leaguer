@@ -8,7 +8,7 @@ feature 'Creating Seasons' do
   end
 
   scenario 'can create a season' do
-    fill_in: 'Description', with: 'Now'
+    fill_in 'Description', with: 'Now'
     check 'Current'
     click_button 'Create Season'
 
