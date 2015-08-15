@@ -45,7 +45,7 @@ gem 'bcrypt', '~> 3.1.10'
 # gem 'debugger', group: [:development, :test]
 
 group :test do
-  gem 'rspec-rails', '~> 3.3.2'
+  gem 'rspec-rails', '~> 3.3.3'
   gem 'cucumber-rails', '~> 1.4.2', require: false
   gem 'database_cleaner', '~> 1.4.1'
 end
