@@ -64,6 +64,6 @@ class TeamsController < ApplicationController
   end
 
   def set_seasons
-    @seasons = Season.where(:id => params[:seasons])
+    @seasons = Season.where(id: params[:seasons])
   end
 end
