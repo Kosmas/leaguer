@@ -4,6 +4,9 @@
 [![Coverage Status](https://coveralls.io/repos/Kosmas/leaguer/badge.png?branch=master)](https://coveralls.io/r/Kosmas/leaguer?branch=master)
 [![Dependency Status](https://gemnasium.com/Kosmas/leaguer.png)](https://gemnasium.com/Kosmas/leaguer)
 [![PullReview stats](https://www.pullreview.com/github/Kosmas/leaguer/badges/master.svg?)](https://www.pullreview.com/github/Kosmas/leaguer/reviews/master)
+[![Inch CI](http://inch-ci.org/github.com/Kosmas/leaguer.svg?branch=master)](https://inch-ci.org/github.com/Komsas/leaguer)
+
+http://inch-ci.org/github/Kosmas/leaguer.svg?branch=master
 
 #### Sport League Application
 
