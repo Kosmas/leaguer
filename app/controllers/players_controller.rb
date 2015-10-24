@@ -1,3 +1,4 @@
+# Class that deals with players
 class PlayersController < ApplicationController
   before_action :set_team
   before_action :set_player, only: [:show, :edit, :update, :destroy]
