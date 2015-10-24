@@ -1,3 +1,4 @@
+# Class that deals with seasons
 class SeasonsController < ApplicationController
   before_action :set_season, only: [:show, :edit, :update, :destroy]
 
