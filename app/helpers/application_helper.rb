@@ -1,4 +1,5 @@
 module ApplicationHelper
+  # return the title of the page
   def title(*parts)
     unless parts.empty?
       content_for :title do
