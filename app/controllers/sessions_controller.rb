@@ -1,8 +1,11 @@
 # Class that deals with sessions
 class SessionsController < ApplicationController
+  
+  # GET /signin
   def new
   end
 
+  # POST /signin
   def create
     user = User.where(name: params[:signin][:name]).first
 
@@ -16,6 +19,7 @@ class SessionsController < ApplicationController
     end
   end
 
+  # GET /signout
   def destroy
     @_current_user = session[:user_id] = nil
     flash[:notice] = 'Signed out successfully.'
@@ -25,6 +29,7 @@ class SessionsController < ApplicationController
 
   private
 
+  # set up the current user
   def current_user
     @_current_user ||= session[:user_id] && User.find_by(id: session[:user_id])
   end
