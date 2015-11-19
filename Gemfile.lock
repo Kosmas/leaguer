@@ -257,7 +257,7 @@ DEPENDENCIES
   brakeman (~> 3.1.2)
   capybara (~> 2.5.0)
   coffee-rails (~> 4.1.0)
-  coveralls (~> 0.8.5)
+  coveralls (~> 0.8.9)
   cucumber-rails (~> 1.4.2)
   database_cleaner (~> 1.5.1)
   factory_girl_rails (~> 4.5.0)
