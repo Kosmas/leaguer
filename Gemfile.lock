@@ -263,7 +263,7 @@ DEPENDENCIES
   factory_girl_rails (~> 4.5.0)
   jbuilder (~> 2.3.2)
   jquery-rails (~> 4.0.5)
-  nokogiri (~> 1.6.7)
+  nokogiri (~> 1.6.7.1)
   rails (~> 4.2.5)
   rspec-rails (~> 3.4.0)
   rubocop (~> 0.35.1)
