@@ -51,7 +51,7 @@ group :test do
 end
 
 group :test do
-  gem 'capybara', '~> 2.5.0'
+  gem 'capybara', '~> 2.6.0'
   gem 'factory_girl_rails', '~> 4.5.0'
 end
 
@@ -64,4 +64,4 @@ gem 'brakeman', '~> 3.1.4', require: false, group: :development
 gem 'rubocop', '~> 0.36.0', require: false
 
 # Security upgrade for nokogiri
-gem 'nokogiri', '~> 1.6.7.1'
+gem 'nokogiri', '~> 1.6.7.2'
