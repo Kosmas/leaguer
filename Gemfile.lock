@@ -51,7 +51,7 @@ GEM
       slim (>= 1.3.6, < 4.0)
       terminal-table (~> 1.4)
     builder (3.2.2)
-    capybara (2.7.0)
+    capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
       nokogiri (>= 1.3.3)
@@ -245,7 +245,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.11)
   brakeman (~> 3.2.1)
-  capybara (~> 2.7.0)
+  capybara (~> 2.7.1)
   coffee-rails (~> 4.1.1)
   coveralls (~> 0.8.13)
   cucumber-rails (~> 1.4.3)
