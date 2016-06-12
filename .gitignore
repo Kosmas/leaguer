@@ -20,3 +20,7 @@
 
 # Ignore coverage results
 /coverage/*.json
+
+# Ignore rvm files
+.ruby-version
+.ruby-gemset
