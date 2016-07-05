@@ -22,7 +22,7 @@ gem 'therubyracer', '~> 0.12.2', platforms: :ruby
 gem 'jquery-rails', '~> 4.1.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks', '~> 2.5.3'
+gem 'turbolinks', '~> 5.0.0'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5.0'
