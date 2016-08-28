@@ -55,7 +55,7 @@ group :test do
   gem 'factory_girl_rails', '~> 4.7.0'
 end
 
-gem 'coveralls', '~> 0.8.14', require: false
+gem 'coveralls', '~> 0.8.15', require: false
 
 # Security
 gem 'brakeman', '~> 3.3.2', require: false, group: :development
