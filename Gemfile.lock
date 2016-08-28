@@ -242,7 +242,7 @@ DEPENDENCIES
   jquery-rails (~> 4.2.1)
   nokogiri (~> 1.6.8)
   rails (~> 5.0.0.1)
-  rspec-rails (~> 3.5.1)
+  rspec-rails (~> 3.5.2)
   rubocop (~> 0.42.0)
   sass-rails (~> 5.0.6)
   sdoc (~> 0.4.1)
