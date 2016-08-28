@@ -231,7 +231,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (~> 3.1.11)
-  brakeman (~> 3.3.2)
+  brakeman (~> 3.3.5)
   capybara (~> 2.7.1)
   coffee-rails (~> 4.2.1)
   coveralls (~> 0.8.15)
