@@ -42,7 +42,7 @@ GEM
     arel (7.1.1)
     ast (2.3.0)
     bcrypt (3.1.11)
-    brakeman (3.3.5)
+    brakeman (3.4.0)
     builder (3.2.2)
     capybara (2.8.1)
       addressable
@@ -231,7 +231,7 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt (~> 3.1.11)
-  brakeman (~> 3.3.5)
+  brakeman (~> 3.4.0)
   capybara (~> 2.8.1)
   coffee-rails (~> 4.2.1)
   coveralls (~> 0.8.15)
