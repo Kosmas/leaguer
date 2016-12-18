@@ -52,7 +52,7 @@ end
 
 group :test do
   gem 'capybara', '~> 2.11.0'
-  gem 'factory_girl_rails', '~> 4.7.0'
+  gem 'factory_girl_rails', '~> 4.8.0'
 end
 
 gem 'coveralls', '~> 0.8.17', require: false
