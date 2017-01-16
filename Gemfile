@@ -61,7 +61,7 @@ gem 'coveralls', '~> 0.8.17', require: false
 gem 'brakeman', '~> 3.4.1', require: false, group: :development
 
 # Style guides
-gem 'rubocop', '~> 0.46.0', require: false
+gem 'rubocop', '~> 0.47.0', require: false
 
 # Security upgrade for nokogiri
 gem 'nokogiri', '~> 1.7.0.1'
