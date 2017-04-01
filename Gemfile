@@ -58,7 +58,7 @@ end
 gem 'coveralls', '~> 0.8.20', require: false
 
 # Security
-gem 'brakeman', '~> 3.6.0', require: false, group: :development
+gem 'brakeman', '~> 3.6.1', require: false, group: :development
 
 # Style guides
 gem 'rubocop', '~> 0.48.0', require: false
