@@ -25,7 +25,7 @@ gem 'jquery-rails', '~> 4.3.1'
 gem 'turbolinks', '~> 5.0.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.6.4'
+gem 'jbuilder', '~> 2.7.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -64,4 +64,4 @@ gem 'brakeman', '~> 3.6.2', require: false, group: :development
 gem 'rubocop', '~> 0.49.1', require: false
 
 # Security upgrade for nokogiri
-gem 'nokogiri', '~> 1.7.2'
+gem 'nokogiri', '~> 1.8.0'
