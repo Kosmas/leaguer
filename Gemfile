@@ -51,7 +51,7 @@ group :test do
 end
 
 group :test do
-  gem 'capybara', '~> 2.15.4'
+  gem 'capybara', '~> 2.16.0'
   gem 'factory_bot_rails', '~> 4.8.2'
 end
 
