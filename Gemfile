@@ -64,4 +64,4 @@ gem 'brakeman', '~> 4.1.1', require: false, group: :development
 gem 'rubocop', '~> 0.52.1', require: false
 
 # Security upgrade for nokogiri
-gem 'nokogiri', '~> 1.8.1'
+gem 'nokogiri', '~> 1.8.2'
