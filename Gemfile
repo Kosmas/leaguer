@@ -19,7 +19,7 @@ gem 'coffee-rails', '~> 4.2.2'
 gem 'therubyracer', '~> 0.12.3', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails', '~> 4.3.3'
+gem 'jquery-rails', '~> 4.4.0'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks', '~> 5.1.1'
@@ -64,4 +64,4 @@ gem 'brakeman', '~> 4.3.0', require: false, group: :development
 gem 'rubocop', '~> 0.56.0', require: false
 
 # Security upgrade for nokogiri
-gem 'nokogiri', '~> 1.13.10'
+gem 'nokogiri', '~> 1.14.3'
