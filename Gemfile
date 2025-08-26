@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 8.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', '~> 1.3.13'
@@ -25,7 +25,7 @@ gem 'jquery-rails', '~> 4.4.0'
 gem 'turbolinks', '~> 5.1.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.7.0'
+gem 'jbuilder', '~> 2.14.0'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -45,13 +45,13 @@ gem 'bcrypt', '~> 3.1.11'
 # gem 'debugger', group: [:development, :test]
 
 group :test do
-  gem 'rspec-rails', '~> 3.7.2'
-  gem 'cucumber-rails', '~> 1.6.0', require: false
+  gem 'rspec-rails', '~> 8.0.2'
+  gem 'cucumber-rails', '~> 3.1.1', require: false
   gem 'database_cleaner', '~> 1.7.0'
 end
 
 group :test do
-  gem 'capybara', '~> 3.1.0'
+  gem 'capybara', '~> 3.40'
   gem 'factory_bot_rails', '~> 4.8.2'
 end
 
